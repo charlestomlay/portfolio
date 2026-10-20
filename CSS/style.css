@@ -1,0 +1,173 @@
+main{
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+img{
+    border-radius: 100%;
+    width: 150;
+    height: 200px;
+    padding: 10px;
+}
+h2{
+    color: white;
+    align-items: center;
+}
+
+nav{
+    border: solid black 2px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-left: auto;
+    gap: 15px;
+    padding: 10px;
+}
+a{
+    color: blue;
+    font-size: large;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+header{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: maroon;
+    align-items: center;
+    text-align: center;
+}
+.About_me{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Skills{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Moto{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Projects{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hehe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.profile1{
+    
+        border: solid black 2px;
+        border-radius: 5px;
+        height: 300px;
+        width: 300px;
+        padding: 10px 10px;
+        text-align: center;
+        box-shadow: 3px 3px 3px black;
+}
+.profile1 img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+.profile1:hover{
+    color: blue;
+}
+section:hover .profile1:not(:hover){
+    opacity: 10;
+    transform: scale(.85);
+    transition: 0.5s ease;
+}
+
+
+.profile2{
+        border: solid black 2px;
+        border-radius: 5px;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        padding: 10px 10px;
+        box-shadow: 3px 3px 3px black;  
+}
+.profile2:hover{
+    color: blue;
+}
+.profile2 img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    
+}
+
+section:hover .profile2:not(:hover){
+    opacity: 10;
+    transform: scale(.85);
+    transition: 0.5s ease;
+}
+.profile3{
+         border: solid black 2px;
+        border-radius: 5px;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        padding: 10px 10px;
+        box-shadow: 3px 3px 3px black;
+}
+.profile3 img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+.profile3:hover{
+    color: blue;
+}
+section:hover .profile3:not(:hover){
+    opacity: 10;
+    transform: scale(.85);
+    transition: 0.5s ease;
+}
+
+.form{
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: burlywood;
+    border: solid black;
+    border-radius: 10px;
+}
